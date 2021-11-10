@@ -12,7 +12,7 @@ const handleInc=()=>{
 }
     return(
         <div>            
-            <h1 style={{ color:"red", textAlign: "center",userSelect:"none"}}>Manish Santosh Pawade</h1>
+            <h1 style={{ color:"red", textAlign: "center",userSelect:"none"}}>CAR INSURANCE CO</h1>
             <h3 style={{ color:"gray", textAlign: "center",userSelect:"none" }}>The  Car Insurance Count is : <span style={{ color: "dodgerBlue"}}>{count}</span> </h3>
             <div style={{ textAlign: "center",userSelect:"none" }}>
                 
