@@ -1,0 +1,50 @@
+.new-expense-background {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  .new-expense-back label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  .new-expense-back input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+  }
+  
+  .new-expense-actions {
+    text-align: right;
+    
+  }
+  input[type=text],[type=number],[type=date]{
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 2s;
+    
+}
+
+input[type=text]:focus{
+  border-color: dodgerblue;
+  box-shadow: 2px 0 10px 0 dodgerblue;
+}
+input[type=number]:focus{
+  border-color: dodgerblue;
+  box-shadow: 2px 0 10px 0 dodgerblue;
+}
+input[type=date]:focus{
+  border-color: dodgerblue;
+  box-shadow: 2px 0 10px 0 dodgerblue;
+}

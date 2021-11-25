@@ -1,13 +1,11 @@
-import './Expense.css';
+import React from 'react';
+import './ExpenseItem.css';
 import ExpenseDate from './ExpenseDate';
 
-
-function Expense(props) {
-   
+function ExpenseItem(props) {
    
     return (
         <>
-         
             <div className="expense-item" >
                 <ExpenseDate date={props.date}/>
                 <div className="expense-item__description">
@@ -19,4 +17,4 @@ function Expense(props) {
         </>
     )
 }
-export default Expense;
+export default ExpenseItem;
